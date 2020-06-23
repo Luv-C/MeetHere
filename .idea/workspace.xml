@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="150af1f9-8d40-4ad7-b4f2-7846c0785f33" name="Default Changelist" comment="" />
+    <list default="true" id="150af1f9-8d40-4ad7-b4f2-7846c0785f33" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meethere.iml" beforeDir="false" afterPath="$PROJECT_DIR$/meethere.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/meethere/UnitTest/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/meethere/UnitTest/UserServiceImplTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +76,13 @@
     </expand>
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -88,6 +99,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1dLYgfoH4SvTF7AmfU1N6fMsapQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -109,23 +121,39 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Spring Boot.MeetHereApplication">
-    <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserServiceImplTest.return_User_by_id">
+    <configuration name="UserServiceImplTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meethere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.meethere.service.impl.*" />
+          <option name="PATTERN" value="com.meethere.UnitTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.service.impl.UserServiceImplTest" />
+      <option name="PACKAGE_NAME" value="com.meethere.UnitTest" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.UnitTest.UserServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.return_User_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="meethere" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meethere.UnitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meethere.UnitTest" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.UnitTest.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="return_User_by_id" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,33 +174,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImplTest.return_user_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceImplTest.return_user_byUserID_exist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meethere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.meethere.service.impl.*" />
+          <option name="PATTERN" value="com.meethere.UnitTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="return_user_by_id" />
+      <option name="PACKAGE_NAME" value="com.meethere.UnitTest" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.UnitTest.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="return_user_byUserID_exist" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="meethere" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.meethere.IntegrationTest.Service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.IntegrationTest.Service" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.IntegrationTest.Service.UserServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -201,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceImplTest.return_User_by_id" />
+        <item itemvalue="JUnit.UserServiceImplTest (1)" />
+        <item itemvalue="JUnit.UserServiceImplTest.return_user_byUserID_exist" />
         <item itemvalue="JUnit.VenueServiceImplTest" />
         <item itemvalue="JUnit.UserServiceImplTest.return_number_of_same_userID" />
-        <item itemvalue="JUnit.UserServiceImplTest" />
-        <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="JUnit.UserServiceImplTest.return_user_by_id" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +240,7 @@
       <workItem from="1592400001664" duration="135000" />
       <workItem from="1592895756489" duration="5160000" />
       <workItem from="1592903365970" duration="67000" />
-      <workItem from="1592903440674" duration="620000" />
+      <workItem from="1592903440674" duration="9973000" />
     </task>
     <servers />
   </component>
@@ -235,6 +248,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="817" y="222" key="#Assign_Data_Sources" timestamp="1592918985451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="817" y="222" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1592918985451" />
     <state x="330" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592290925584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -251,42 +268,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="363" y="259" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592902277864" />
-    <state width="959" height="266" key="GridCell.Tab.0.bottom" timestamp="1592901811090">
+    <state width="1230" height="257" key="GridCell.Tab.0.bottom" timestamp="1592920384186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="959" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592901811090" />
-    <state width="959" height="266" key="GridCell.Tab.0.center" timestamp="1592901811090">
+    <state width="1230" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592920384186" />
+    <state width="1230" height="257" key="GridCell.Tab.0.center" timestamp="1592920384185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="959" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592901811090" />
-    <state width="959" height="266" key="GridCell.Tab.0.left" timestamp="1592901811090">
+    <state width="1230" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592920384185" />
+    <state width="1230" height="257" key="GridCell.Tab.0.left" timestamp="1592920384185">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="959" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592901811090" />
-    <state width="959" height="266" key="GridCell.Tab.0.right" timestamp="1592901811090">
+    <state width="1230" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592920384185" />
+    <state width="1230" height="257" key="GridCell.Tab.0.right" timestamp="1592920384186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="959" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592901811090" />
-    <state width="959" height="266" key="GridCell.Tab.1.bottom" timestamp="1592898782467">
+    <state width="1230" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592920384186" />
+    <state width="958" height="266" key="GridCell.Tab.1.bottom" timestamp="1592918163291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="959" height="266" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592898782467" />
-    <state width="959" height="266" key="GridCell.Tab.1.center" timestamp="1592898782466">
+    <state width="958" height="266" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592918163291" />
+    <state width="958" height="266" key="GridCell.Tab.1.center" timestamp="1592918163290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="959" height="266" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592898782466" />
-    <state width="959" height="266" key="GridCell.Tab.1.left" timestamp="1592898782466">
+    <state width="958" height="266" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592918163290" />
+    <state width="958" height="266" key="GridCell.Tab.1.left" timestamp="1592918163290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="959" height="266" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592898782466" />
-    <state width="959" height="266" key="GridCell.Tab.1.right" timestamp="1592898782466">
+    <state width="958" height="266" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592918163290" />
+    <state width="958" height="266" key="GridCell.Tab.1.right" timestamp="1592918163290">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="959" height="266" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592898782466" />
-    <state x="63" y="78" key="SettingsEditor" timestamp="1592228617776">
+    <state width="958" height="266" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592918163290" />
+    <state x="719" y="106" key="SettingsEditor" timestamp="1592918938433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="63" y="78" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592228617776" />
+    <state x="719" y="106" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1592918938433" />
     <state x="462" y="393" width="343" height="237" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1592207518529">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -299,9 +316,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="264" y="328" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592355187897" />
-    <state x="246" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1592230022837">
+    <state x="712" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1592918838503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="246" y="223" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592230022837" />
+    <state x="712" y="259" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592918838503" />
   </component>
 </project>

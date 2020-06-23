@@ -6,7 +6,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
-          <factory-entry name="entityManagerFactory" />
+          <factory-entry name="entityManagerFactory" value="657d557f-e208-48e2-9045-bbc8ca6a1c40" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>
@@ -21,6 +21,12 @@
           <root url="file://$MODULE_DIR$/src/main/java" />
           <root url="file://$MODULE_DIR$/src/main/resources" />
         </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map />
+        <naming-strategy-map />
       </configuration>
     </facet>
   </component>
