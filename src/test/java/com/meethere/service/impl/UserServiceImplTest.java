@@ -1,4 +1,4 @@
-package com.meethere.UnitTest;
+package com.meethere.service.impl;
 
 import com.meethere.MeetHereApplication;
 import com.meethere.dao.UserDao;
@@ -143,6 +143,44 @@ public class UserServiceImplTest {
         verify(userDao).save(user);
         verify(userDao).findAll();
     }
+    //delByID(int id)方法测试
+    @Test
+    void del_user_by_id() {
+        userService.delByID(1);
+        verify(userDao).deleteById(1);
 
+        userService.delByID(2);
+        verify(userDao).deleteById(2);
+
+        verify(userDao,times(2)).deleteById(anyInt());
+    }
+    //updateUser(User user)方法测试
+    @Test
+    void update_user_info() {
+        int id=1;
+        String userID="user";
+        String password="password";
+        String email="222@qq.com";
+        String phone="12345678901";
+        int isadmin=0;
+        String user_name="nickname";
+        String picture="picture";
+        User user=new User(id,userID,user_name,password,email,phone,isadmin,picture);
+
+        when(userDao.save(user)).thenReturn(null);
+        userService.updateUser(user);
+        verify(userDao).save(user);
+    }
+    //countUserID(String userID)方法测试
+    @Test
+    void return_number_of_same_userID() {
+        String userID="user";
+        when(userDao.countByUserID(userID)).thenReturn(1).thenReturn(2);
+        int res1=userService.countUserID(userID);
+        assertEquals(1,res1);
+        int res2=userService.countUserID(userID);
+        assertEquals(2,res2);
+        verify(userDao,times(2)).countByUserID(userID);
+    }
 
 }
