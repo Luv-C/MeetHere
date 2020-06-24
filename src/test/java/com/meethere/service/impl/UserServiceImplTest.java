@@ -149,8 +149,8 @@ public class UserServiceImplTest {
         userService.delByID(1);
         verify(userDao).deleteById(1);
 
-        userService.delByID(2);
-        verify(userDao).deleteById(2);
+        userService.delByID(-1);
+        verify(userDao).deleteById(-1);
 
         verify(userDao,times(2)).deleteById(anyInt());
     }
