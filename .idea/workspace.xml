@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="150af1f9-8d40-4ad7-b4f2-7846c0785f33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/meethere/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/meethere/service/impl/UserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/meethere/service/impl/UserServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/meethere/service/impl/UserServiceImplTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="162" />
+    <option name="myElementSize" value="15" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -129,7 +127,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceImplTest.del_user_by_id">
+  <component name="RunManager" selected="JUnit.UserServiceImplTest (1)">
     <configuration name="UserServiceImplTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meethere" />
       <extension name="coverage">
@@ -178,22 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImplTest.return_User_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="meethere" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.meethere.UnitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.UnitTest" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.UnitTest.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="return_User_by_id" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserServiceImplTest.return_number_of_same_userID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meethere" />
       <extension name="coverage">
@@ -205,6 +187,22 @@
       <option name="PACKAGE_NAME" value="com.meethere.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.meethere.service.impl.UserServiceImplTest" />
       <option name="METHOD_NAME" value="return_number_of_same_userID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.return_user_by_UserID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="meethere" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meethere.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meethere.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="return_user_by_UserID" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -234,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceImplTest (1)" />
+        <item itemvalue="JUnit.UserServiceImplTest.return_user_by_UserID" />
         <item itemvalue="JUnit.UserServiceImplTest.del_user_by_id" />
         <item itemvalue="JUnit.UserServiceImplTest.return_number_of_same_userID" />
         <item itemvalue="JUnit.UserServiceImplTest (1)" />
-        <item itemvalue="JUnit.UserServiceImplTest (1)" />
-        <item itemvalue="JUnit.UserServiceImplTest.return_User_by_id" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +258,7 @@
       <workItem from="1592400001664" duration="135000" />
       <workItem from="1592895756489" duration="5160000" />
       <workItem from="1592903365970" duration="67000" />
-      <workItem from="1592903440674" duration="19963000" />
+      <workItem from="1592903440674" duration="20482000" />
     </task>
     <servers />
   </component>
@@ -292,22 +290,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="363" y="259" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592902277864" />
-    <state width="1230" height="257" key="GridCell.Tab.0.bottom" timestamp="1592988195255">
+    <state width="1230" height="257" key="GridCell.Tab.0.bottom" timestamp="1592989519988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1230" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592988195255" />
-    <state width="1230" height="257" key="GridCell.Tab.0.center" timestamp="1592988195254">
+    <state width="1230" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592989519988" />
+    <state width="1230" height="257" key="GridCell.Tab.0.center" timestamp="1592989519988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1230" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592988195254" />
-    <state width="1230" height="257" key="GridCell.Tab.0.left" timestamp="1592988195254">
+    <state width="1230" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592989519988" />
+    <state width="1230" height="257" key="GridCell.Tab.0.left" timestamp="1592989519988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1230" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592988195254" />
-    <state width="1230" height="257" key="GridCell.Tab.0.right" timestamp="1592988195254">
+    <state width="1230" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592989519988" />
+    <state width="1230" height="257" key="GridCell.Tab.0.right" timestamp="1592989519988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1230" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592988195254" />
+    <state width="1230" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592989519988" />
     <state width="958" height="266" key="GridCell.Tab.1.bottom" timestamp="1592918163291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -349,7 +347,7 @@
     <SUITE FILE_PATH="coverage/meethere$UserServiceImplTest.ic" NAME="UserServiceImplTest Coverage Results" MODIFIED="1592965222135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.meethere.UnitTest.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/meethere$UserServiceImplTest__1_.ic" NAME="UserServiceImplTest (1) Coverage Results" MODIFIED="1592965366212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/meethere$UserServiceImplTest__1_.ic" NAME="UserServiceImplTest (1) Coverage Results" MODIFIED="1592989519880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.meethere.service.impl.*</FILTER>
     </SUITE>
   </component>
