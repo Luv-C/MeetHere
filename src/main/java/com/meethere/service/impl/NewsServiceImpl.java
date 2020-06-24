@@ -1,4 +1,4 @@
-package com.meethere.UnitTest.Service.impl;
+package com.meethere.service.impl;
 
 import com.meethere.dao.NewsDao;
 import com.meethere.entity.News;

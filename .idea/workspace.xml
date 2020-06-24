@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150af1f9-8d40-4ad7-b4f2-7846c0785f33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/controller/user/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/user/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/controller/user/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/user/NewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/controller/user/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/user/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/controller/user/VenueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/user/VenueController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/service/impl/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Service/impl/MessageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/service/impl/MessageVoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Service/impl/MessageVoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/service/impl/NewsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Service/impl/NewsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/service/impl/OrderVoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Service/impl/OrderVoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/service/impl/VenueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Service/impl/VenueServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/meethere/controller/user/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/meethere/UnitTest/user/UserControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/meethere/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/meethere/UnitTest/Service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Controller/user/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/controller/user/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Controller/user/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/controller/user/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Controller/user/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/controller/user/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Controller/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/controller/user/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Controller/user/VenueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/controller/user/VenueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Service/impl/MessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Service/impl/MessageVoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/service/impl/MessageVoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Service/impl/NewsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/service/impl/NewsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Service/impl/OrderVoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/service/impl/OrderVoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/meethere/UnitTest/Service/impl/VenueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/meethere/service/impl/VenueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/meethere/UnitTest/Controller/user/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/meethere/controller/user/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/meethere/UnitTest/Service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/meethere/service/impl/UserServiceImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +24,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="15" />
+    <option name="myElementSize" value="82" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -145,12 +146,12 @@
       <module name="meethere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.meethere.UnitTest.Controller.user.*" />
+          <option name="PATTERN" value="com.meethere.controller.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.UnitTest.Controller.user" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.UnitTest.Controller.user.UserControllerTest" />
+      <option name="PACKAGE_NAME" value="com.meethere.controller.user" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.user.UserControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,12 +161,12 @@
       <module name="meethere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.meethere.UnitTest.Controller.user.*" />
+          <option name="PATTERN" value="com.meethere.controller.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.UnitTest.Controller.user" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.UnitTest.Controller.user.UserControllerTest" />
+      <option name="PACKAGE_NAME" value="com.meethere.controller.user" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.user.UserControllerTest" />
       <option name="METHOD_NAME" value="admin_login_succeeded" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -176,12 +177,12 @@
       <module name="meethere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.meethere.UnitTest.Controller.user.*" />
+          <option name="PATTERN" value="com.meethere.controller.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.UnitTest.Controller.user" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.UnitTest.Controller.user.UserControllerTest" />
+      <option name="PACKAGE_NAME" value="com.meethere.controller.user" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.user.UserControllerTest" />
       <option name="METHOD_NAME" value="invalid_Isadmin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -192,12 +193,12 @@
       <module name="meethere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.meethere.UnitTest.Controller.user.*" />
+          <option name="PATTERN" value="com.meethere.controller.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.UnitTest.Controller.user" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.UnitTest.Controller.user.UserControllerTest" />
+      <option name="PACKAGE_NAME" value="com.meethere.controller.user" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.user.UserControllerTest" />
       <option name="METHOD_NAME" value="user_login_succeeded" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -225,12 +226,12 @@
       <module name="meethere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.meethere.UnitTest.Service.impl.*" />
+          <option name="PATTERN" value="com.meethere.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.UnitTest.Service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.UnitTest.Service.impl.UserServiceImplTest" />
+      <option name="PACKAGE_NAME" value="com.meethere.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.service.impl.UserServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -271,7 +272,7 @@
       <workItem from="1592400001664" duration="135000" />
       <workItem from="1592895756489" duration="5160000" />
       <workItem from="1592903365970" duration="67000" />
-      <workItem from="1592903440674" duration="26338000" />
+      <workItem from="1592903440674" duration="27679000" />
     </task>
     <servers />
   </component>
@@ -291,6 +292,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="330" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592290925584" />
+    <state x="843" y="128" width="915" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1593008692228">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="843" y="128" width="915" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593008692228" />
     <state x="348" y="292" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1592290885463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -299,10 +304,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="203" y="182" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592229908506" />
-    <state x="1105" y="453" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593008376519">
+    <state x="1100" y="453" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593010158813">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1105" y="453" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593008376519" />
+    <state x="1100" y="453" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593010158813" />
     <state x="363" y="259" key="FileChooserDialogImpl" timestamp="1592902277864">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

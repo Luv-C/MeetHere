@@ -1,4 +1,4 @@
-package com.meethere.UnitTest.Controller.user;
+package com.meethere.controller.user;
 
 import com.meethere.entity.User;
 import com.meethere.service.UserService;

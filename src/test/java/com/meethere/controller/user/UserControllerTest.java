@@ -1,4 +1,4 @@
-package com.meethere.UnitTest.Controller.user;
+package com.meethere.controller.user;
 
 
 import com.meethere.entity.User;
@@ -85,7 +85,16 @@ public class UserControllerTest {
     //测试logout(HttpServletRequest request, HttpServletResponse response)函数
     @Test
     public void user_logout() throws Exception{
+        ResultActions perform=mockMvc.perform(get("/logout.do"));
+        perform.andExpect(redirectedUrl("/index"));
+    }
+    //测试quit(HttpServletRequest request, HttpServletResponse response)函数
+    @Test
+    public void admin_quit() throws Exception{
         ResultActions perform=mockMvc.perform(get("/quit.do"));
         perform.andExpect(redirectedUrl("/index"));
     }
+    //测试updateUser(String userName, String userID, String passwordNew,String email, String phone, MultipartFile picture,HttpServletRequest request, HttpServletResponse response)函数
+    @Test
+    public void user_update_passwordNew_is_null
 }
