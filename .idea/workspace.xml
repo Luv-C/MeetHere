@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150af1f9-8d40-4ad7-b4f2-7846c0785f33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/meethere/controller/user/UserControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/单元测试/单元测试计划书.docx" beforeDir="false" afterPath="$PROJECT_DIR$/report/单元测试/单元测试计划书.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +129,70 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceImplTest (1)">
+  <component name="RunManager" selected="JUnit.UserControllerTest">
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="meethere" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meethere.controller.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meethere.controller.user" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.user.UserControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.admin_login_succeeded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="meethere" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meethere.controller.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meethere.controller.user" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.user.UserControllerTest" />
+      <option name="METHOD_NAME" value="admin_login_succeeded" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.invalid_Isadmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="meethere" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meethere.controller.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meethere.controller.user" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.user.UserControllerTest" />
+      <option name="METHOD_NAME" value="invalid_Isadmin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest.user_login_succeeded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="meethere" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meethere.controller.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meethere.controller.user" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.user.UserControllerTest" />
+      <option name="METHOD_NAME" value="user_login_succeeded" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserServiceImplTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meethere" />
       <extension name="coverage">
@@ -160,69 +225,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImplTest.del_user_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="meethere" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.meethere.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="del_user_by_id" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceImplTest.return_number_of_same_userID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="meethere" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.meethere.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="return_number_of_same_userID" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceImplTest.return_user_by_UserID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="meethere" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.meethere.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="return_user_by_UserID" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VenueServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="meethere" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.meethere.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.service.impl.VenueServiceImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MeetHereApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="meethere" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.meethere.MeetHereApplication" />
@@ -232,10 +234,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceImplTest (1)" />
-        <item itemvalue="JUnit.UserServiceImplTest.return_user_by_UserID" />
-        <item itemvalue="JUnit.UserServiceImplTest.del_user_by_id" />
-        <item itemvalue="JUnit.UserServiceImplTest.return_number_of_same_userID" />
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.UserControllerTest.invalid_Isadmin" />
+        <item itemvalue="JUnit.UserControllerTest.admin_login_succeeded" />
+        <item itemvalue="JUnit.UserControllerTest.user_login_succeeded" />
         <item itemvalue="JUnit.UserServiceImplTest (1)" />
       </list>
     </recent_temporary>
@@ -258,7 +260,7 @@
       <workItem from="1592400001664" duration="135000" />
       <workItem from="1592895756489" duration="5160000" />
       <workItem from="1592903365970" duration="67000" />
-      <workItem from="1592903440674" duration="20482000" />
+      <workItem from="1592903440674" duration="25935000" />
     </task>
     <servers />
   </component>
@@ -290,38 +292,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="363" y="259" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592902277864" />
-    <state width="1230" height="257" key="GridCell.Tab.0.bottom" timestamp="1592989519988">
+    <state width="1055" height="257" key="GridCell.Tab.0.bottom" timestamp="1593007894638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1230" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592989519988" />
-    <state width="1230" height="257" key="GridCell.Tab.0.center" timestamp="1592989519988">
+    <state width="1055" height="257" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593007894638" />
+    <state width="1055" height="257" key="GridCell.Tab.0.center" timestamp="1593007894638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1230" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592989519988" />
-    <state width="1230" height="257" key="GridCell.Tab.0.left" timestamp="1592989519988">
+    <state width="1055" height="257" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593007894638" />
+    <state width="1055" height="257" key="GridCell.Tab.0.left" timestamp="1593007894637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1230" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592989519988" />
-    <state width="1230" height="257" key="GridCell.Tab.0.right" timestamp="1592989519988">
+    <state width="1055" height="257" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593007894637" />
+    <state width="1055" height="257" key="GridCell.Tab.0.right" timestamp="1593007894638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1230" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592989519988" />
-    <state width="958" height="266" key="GridCell.Tab.1.bottom" timestamp="1592918163291">
+    <state width="1055" height="257" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593007894638" />
+    <state width="1055" height="257" key="GridCell.Tab.1.bottom" timestamp="1593007894638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="958" height="266" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592918163291" />
-    <state width="958" height="266" key="GridCell.Tab.1.center" timestamp="1592918163290">
+    <state width="1055" height="257" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593007894638" />
+    <state width="1055" height="257" key="GridCell.Tab.1.center" timestamp="1593007894638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="958" height="266" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592918163290" />
-    <state width="958" height="266" key="GridCell.Tab.1.left" timestamp="1592918163290">
+    <state width="1055" height="257" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593007894638" />
+    <state width="1055" height="257" key="GridCell.Tab.1.left" timestamp="1593007894638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="958" height="266" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592918163290" />
-    <state width="958" height="266" key="GridCell.Tab.1.right" timestamp="1592918163290">
+    <state width="1055" height="257" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593007894638" />
+    <state width="1055" height="257" key="GridCell.Tab.1.right" timestamp="1593007894638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="958" height="266" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592918163290" />
+    <state width="1055" height="257" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593007894638" />
     <state x="719" y="106" key="SettingsEditor" timestamp="1592918938433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
