@@ -63,7 +63,7 @@ public class UserController {
         user.setPhone(phone);
         user.setPicture("");
         userService.create(user);
-        response.sendRedirect("login");
+        response.sendRedirect("/login");
     }
 
     @GetMapping("/logout.do")
