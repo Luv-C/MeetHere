@@ -3,6 +3,7 @@ package com.meethere.controller.user;
 
 import com.meethere.entity.User;
 import com.meethere.service.UserService;
+//import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,9 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+import org.springframework.web.servlet.ModelAndView;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
@@ -33,12 +36,19 @@ public class UserControllerTest {
     //测试signup()函数
     @Test
     public void return_sign_up_html() throws Exception{
-        mockMvc.perform(get("/signup")).andExpect(status().isOk());
+        ResultActions perform=mockMvc.perform(get("/signup"));
+        perform.andExpect(status().isOk());
+        ModelAndView mv = perform.andReturn().getModelAndView();
+        assertEquals(mv.getViewName(),"signup");
     }
     //测试login()函数
     @Test
     public void return_login_html() throws Exception{
-        mockMvc.perform(get("/login")).andExpect(status().isOk());
+        //mockMvc.perform(get("/login")).andExpect(status().isOk());
+        ResultActions perform=mockMvc.perform(get("/login"));
+        perform.andExpect(status().isOk());
+        ModelAndView mv = perform.andReturn().getModelAndView();
+        assertEquals(mv.getViewName(),"login");
     }
     //测试login(String userID,String password, HttpServletRequest request)函数
     @Test
