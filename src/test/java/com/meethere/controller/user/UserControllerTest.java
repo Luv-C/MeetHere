@@ -8,9 +8,12 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.ResultActions;
+import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
+import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -41,7 +44,7 @@ public class UserControllerTest {
     @Test
     public void user_does_not_exist_or_wrong_password() throws Exception{
         when(userService.checkLogin(anyString(),anyString())).thenReturn(null);
-        ResultActions perform=mockMvc.perform(post("/loginCheck.do").param("userId","test").param("password","test"));
+        ResultActions perform=mockMvc.perform(post("/loginCheck.do").param("userId","noUser").param("password","noPassword"));
         perform.andExpect(status().isOk()).andExpect(content().string("false"));
     }
     @Test
@@ -96,5 +99,118 @@ public class UserControllerTest {
     }
     //测试updateUser(String userName, String userID, String passwordNew,String email, String phone, MultipartFile picture,HttpServletRequest request, HttpServletResponse response)函数
     @Test
-    public void user_update_passwordNew_is_null
+    public void user_update_passwordNew_is_null_and_picture_is_null() throws Exception {
+        MockMultipartFile mockMultipartFile = new MockMultipartFile("picture","",
+                "picture", "".getBytes());
+        when(userService.findByUserID(anyString())).thenReturn(new User());
+        MockHttpServletRequestBuilder builder =
+                MockMvcRequestBuilders.multipart("/updateUser.do").file(mockMultipartFile).param("userID","user").param("userName","name")
+                        .param("passwordNew", (String) null)
+                        .param("email","email").param("phone","phone");
+
+        ResultActions perform=mockMvc.perform(builder);
+        perform.andExpect(redirectedUrl("user_info"));
+        verify(userService).findByUserID(anyString());
+        verify(userService).updateUser(any());
+    }
+    @Test
+    public void user_update_passwordNew_is__and_picture_is_null() throws Exception{
+        MockMultipartFile mockMultipartFile = new MockMultipartFile("picture","",
+                "picture", "".getBytes());
+        when(userService.findByUserID(anyString())).thenReturn(new User());
+        MockHttpServletRequestBuilder builder =
+                MockMvcRequestBuilders.multipart("/updateUser.do").file(mockMultipartFile).param("userID","user").param("userName","name")
+                        .param("passwordNew", "")
+                        .param("email","email").param("phone","phone");
+
+        ResultActions perform=mockMvc.perform(builder);
+        perform.andExpect(redirectedUrl("user_info"));
+        verify(userService).findByUserID(anyString());
+        verify(userService).updateUser(any());
+    }
+    @Test
+    public void user_update_password_exists_and_picture_is_null() throws Exception{
+        MockMultipartFile mockMultipartFile = new MockMultipartFile("picture","",
+                "picture", "".getBytes());
+        when(userService.findByUserID(anyString())).thenReturn(new User());
+        MockHttpServletRequestBuilder builder =
+                MockMvcRequestBuilders.multipart("/updateUser.do").file(mockMultipartFile).param("userID","user").param("userName","name")
+                        .param("passwordNew", "passwordNew")
+                        .param("email","email").param("phone","phone");
+
+        ResultActions perform=mockMvc.perform(builder);
+        perform.andExpect(redirectedUrl("user_info"));
+        verify(userService).findByUserID(anyString());
+        verify(userService).updateUser(any());
+    }
+    @Test
+    public void user_update_passwordNew_is_null_and_picture_exists() throws Exception{
+        MockMultipartFile mockMultipartFile = new MockMultipartFile("picture","1.bmp",
+                "picture", "".getBytes());
+        when(userService.findByUserID(anyString())).thenReturn(new User());
+        MockHttpServletRequestBuilder builder =
+                MockMvcRequestBuilders.multipart("/updateUser.do").file(mockMultipartFile).param("userID","user").param("userName","name")
+                        .param("passwordNew", (String) null)
+                        .param("email","email").param("phone","phone");
+
+        ResultActions perform=mockMvc.perform(builder);
+        perform.andExpect(redirectedUrl("user_info"));
+        verify(userService).findByUserID(anyString());
+        verify(userService).updateUser(any());
+    }
+    @Test
+    public void user_update_passwordNew_is__and_picture_exists() throws Exception{
+        MockMultipartFile mockMultipartFile = new MockMultipartFile("picture","1.bmp",
+                "picture", "".getBytes());
+        when(userService.findByUserID(anyString())).thenReturn(new User());
+        MockHttpServletRequestBuilder builder =
+                MockMvcRequestBuilders.multipart("/updateUser.do").file(mockMultipartFile).param("userID","user").param("userName","name")
+                        .param("passwordNew", "")
+                        .param("email","email").param("phone","phone");
+
+        ResultActions perform=mockMvc.perform(builder);
+        perform.andExpect(redirectedUrl("user_info"));
+        verify(userService).findByUserID(anyString());
+        verify(userService).updateUser(any());
+    }
+    @Test
+    public void user_update_passwordNew_and_picture_exist() throws Exception{
+        MockMultipartFile mockMultipartFile = new MockMultipartFile("picture","1.bmp",
+                "picture", "".getBytes());
+        when(userService.findByUserID(anyString())).thenReturn(new User());
+        MockHttpServletRequestBuilder builder =
+                MockMvcRequestBuilders.multipart("/updateUser.do").file(mockMultipartFile).param("userID","user").param("userName","name")
+                        .param("passwordNew", "passwordNew")
+                        .param("email","email").param("phone","phone");
+
+        ResultActions perform=mockMvc.perform(builder);
+        perform.andExpect(redirectedUrl("user_info"));
+        verify(userService).findByUserID(anyString());
+        verify(userService).updateUser(any());
+    }
+    //测试checkPassword函数
+    @Test
+    public void true_password() throws Exception{
+        User user=new User();
+        user.setUserID("User");
+        user.setPassword("password");
+        when(userService.findByUserID("User")).thenReturn(user);
+        ResultActions perform=mockMvc.perform(get("/checkPassword.do").param("userID","User").param("password","password"));
+        perform.andExpect(status().isOk()).andExpect(content().string("true"));
+    }
+    @Test
+    public void wrong_password() throws Exception{
+        User user=new User();
+        user.setUserID("User");
+        user.setPassword("password");
+        when(userService.findByUserID("User")).thenReturn(user);
+        ResultActions perform=mockMvc.perform(get("/checkPassword.do").param("userID","User").param("password","pass"));
+        perform.andExpect(status().isOk()).andExpect(content().string("false"));
+    }
+    //测试user_info函数
+    @Test
+    public void return_user_info_html() throws Exception{
+        mockMvc.perform(get("/user_info").sessionAttr("user",new User())).andExpect(status().isOk());
+    }
+
 }
