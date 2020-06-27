@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150af1f9-8d40-4ad7-b4f2-7846c0785f33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/meethere/controller/user/MessageControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/meethere/controller/admin/AdminVenueControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/单元测试/UserController类测试报告.docx" beforeDir="false" afterPath="$PROJECT_DIR$/report/单元测试/UserController类测试报告.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/meethere/controller/user/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/meethere/controller/user/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/单元测试/MessageController类测试报告.docx" beforeDir="false" afterPath="$PROJECT_DIR$/report/单元测试/MessageController类测试报告.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/单元测试/UserServiceImpl类测试报告.docx" beforeDir="false" afterPath="$PROJECT_DIR$/report/单元测试/UserServiceImpl类测试报告.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/单元测试/~$erController类测试报告.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/单元测试/~WRL2679.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/单元测试/单元测试计划书.docx" beforeDir="false" afterPath="$PROJECT_DIR$/report/单元测试/单元测试计划书.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="97" />
+    <option name="myElementSize" value="15" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -130,81 +133,81 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.MessageControllerTest">
-    <configuration name="MessageControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AdminVenueControllerTest">
+    <configuration name="AdminVenueControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meethere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.meethere.controller.user.*" />
+          <option name="PATTERN" value="com.meethere.controller.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.controller.user" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.user.MessageControllerTest" />
+      <option name="PACKAGE_NAME" value="com.meethere.controller.admin" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.admin.AdminVenueControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageControllerTest.fail_to_return_user_message_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminVenueControllerTest.add_venue_failed_and_picture_is_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meethere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.meethere.controller.user.*" />
+          <option name="PATTERN" value="com.meethere.controller.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.controller.user" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.user.MessageControllerTest" />
-      <option name="METHOD_NAME" value="fail_to_return_user_message_list" />
+      <option name="PACKAGE_NAME" value="com.meethere.controller.admin" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.admin.AdminVenueControllerTest" />
+      <option name="METHOD_NAME" value="add_venue_failed_and_picture_is_empty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageControllerTest.succeed_to_return_user_message_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminVenueControllerTest.admin_del_venue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meethere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.meethere.controller.user.*" />
+          <option name="PATTERN" value="com.meethere.controller.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.controller.user" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.user.MessageControllerTest" />
-      <option name="METHOD_NAME" value="succeed_to_return_user_message_list" />
+      <option name="PACKAGE_NAME" value="com.meethere.controller.admin" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.admin.AdminVenueControllerTest" />
+      <option name="METHOD_NAME" value="admin_del_venue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest.return_login_html" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminVenueControllerTest.modify_venue_and_picture_exists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meethere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.meethere.controller.user.*" />
+          <option name="PATTERN" value="com.meethere.controller.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.controller.user" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.user.UserControllerTest" />
-      <option name="METHOD_NAME" value="return_login_html" />
+      <option name="PACKAGE_NAME" value="com.meethere.controller.admin" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.admin.AdminVenueControllerTest" />
+      <option name="METHOD_NAME" value="modify_venue_and_picture_exists" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest.return_sign_up_html" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminVenueControllerTest.modify_venue_and_picture_is_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meethere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.meethere.controller.user.*" />
+          <option name="PATTERN" value="com.meethere.controller.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.meethere.controller.user" />
-      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.user.UserControllerTest" />
-      <option name="METHOD_NAME" value="return_sign_up_html" />
+      <option name="PACKAGE_NAME" value="com.meethere.controller.admin" />
+      <option name="MAIN_CLASS_NAME" value="com.meethere.controller.admin.AdminVenueControllerTest" />
+      <option name="METHOD_NAME" value="modify_venue_and_picture_is_empty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -219,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MessageControllerTest" />
-        <item itemvalue="JUnit.MessageControllerTest.succeed_to_return_user_message_list" />
-        <item itemvalue="JUnit.MessageControllerTest.fail_to_return_user_message_list" />
-        <item itemvalue="JUnit.UserControllerTest.return_login_html" />
-        <item itemvalue="JUnit.UserControllerTest.return_sign_up_html" />
+        <item itemvalue="JUnit.AdminVenueControllerTest" />
+        <item itemvalue="JUnit.AdminVenueControllerTest.modify_venue_and_picture_exists" />
+        <item itemvalue="JUnit.AdminVenueControllerTest.modify_venue_and_picture_is_empty" />
+        <item itemvalue="JUnit.AdminVenueControllerTest.admin_del_venue" />
+        <item itemvalue="JUnit.AdminVenueControllerTest.add_venue_failed_and_picture_is_empty" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +249,7 @@
       <workItem from="1592895756489" duration="5160000" />
       <workItem from="1592903365970" duration="67000" />
       <workItem from="1592903440674" duration="38676000" />
-      <workItem from="1593155995562" duration="16939000" />
+      <workItem from="1593155995562" duration="37489000" />
     </task>
     <servers />
   </component>
@@ -290,22 +293,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="363" y="259" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592902277864" />
-    <state width="879" height="273" key="GridCell.Tab.0.bottom" timestamp="1593181715580">
+    <state width="876" height="486" key="GridCell.Tab.0.bottom" timestamp="1593270001614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="879" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593181715580" />
-    <state width="879" height="273" key="GridCell.Tab.0.center" timestamp="1593181715579">
+    <state width="876" height="486" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593270001614" />
+    <state width="876" height="486" key="GridCell.Tab.0.center" timestamp="1593270001614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="879" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593181715579" />
-    <state width="879" height="273" key="GridCell.Tab.0.left" timestamp="1593181715579">
+    <state width="876" height="486" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593270001614" />
+    <state width="876" height="486" key="GridCell.Tab.0.left" timestamp="1593270001614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="879" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593181715579" />
-    <state width="879" height="273" key="GridCell.Tab.0.right" timestamp="1593181715580">
+    <state width="876" height="486" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593270001614" />
+    <state width="876" height="486" key="GridCell.Tab.0.right" timestamp="1593270001614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="879" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593181715580" />
+    <state width="876" height="486" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593270001614" />
     <state width="880" height="273" key="GridCell.Tab.1.bottom" timestamp="1593174158276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -338,23 +341,32 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="264" y="328" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592355187897" />
-    <state x="712" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1592918838503">
+    <state x="712" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1593264507382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="712" y="259" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592918838503" />
+    <state x="712" y="259" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1593264507382" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/meethere$UserServiceImplTest.ic" NAME="UserServiceImplTest Coverage Results" MODIFIED="1592965222135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.meethere.UnitTest.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/meethere$MessageControllerTest.ic" NAME="MessageControllerTest Coverage Results" MODIFIED="1593181715487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/meethere$MessageControllerTest.ic" NAME="MessageControllerTest Coverage Results" MODIFIED="1593242345087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.meethere.controller.user.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/meethere$AdminVenueControllerTest_modify_venue_and_picture_is_empty.ic" NAME="AdminVenueControllerTest.modify_venue_and_picture_is_empty Coverage Results" MODIFIED="1593266585318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.meethere.controller.admin.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/meethere$UserServiceImplTest__1_.ic" NAME="UserServiceImplTest Coverage Results" MODIFIED="1593008343182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.meethere.UnitTest.Service.impl.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/meethere$AdminVenueControllerTest.ic" NAME="AdminVenueControllerTest Coverage Results" MODIFIED="1593269218189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.meethere.controller.admin.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/meethere$UserControllerTest.ic" NAME="UserControllerTest Coverage Results" MODIFIED="1593159967163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.meethere.controller.user.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/meethere$AdminVenueControllerTest_modify_venue_and_picture_exists.ic" NAME="AdminVenueControllerTest.modify_venue_and_picture_exists Coverage Results" MODIFIED="1593266735446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.meethere.controller.admin.*</FILTER>
     </SUITE>
   </component>
 </project>
