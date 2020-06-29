@@ -281,5 +281,4 @@ public class AdminVenueControllerTest {
         perform.andExpect(content().string("false"));
         verify(venueService).countVenueName("venue");
     }
-
 }

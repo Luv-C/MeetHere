@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="150af1f9-8d40-4ad7-b4f2-7846c0785f33" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/meethere/controller/admin/AdminVenueControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/单元测试/MessageController类测试报告.docx" beforeDir="false" afterPath="$PROJECT_DIR$/report/单元测试/MessageController类测试报告.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/单元测试/UserServiceImpl类测试报告.docx" beforeDir="false" afterPath="$PROJECT_DIR$/report/单元测试/UserServiceImpl类测试报告.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/单元测试/~$erController类测试报告.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/单元测试/~WRL2679.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/单元测试/~$元测试计划书.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/report/单元测试/单元测试计划书.docx" beforeDir="false" afterPath="$PROJECT_DIR$/report/单元测试/单元测试计划书.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/meethere/controller/admin/AdminVenueControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/meethere/controller/admin/AdminVenueControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +118,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testPractice" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -249,7 +246,7 @@
       <workItem from="1592895756489" duration="5160000" />
       <workItem from="1592903365970" duration="67000" />
       <workItem from="1592903440674" duration="38676000" />
-      <workItem from="1593155995562" duration="37489000" />
+      <workItem from="1593155995562" duration="45848000" />
     </task>
     <servers />
   </component>
@@ -289,10 +286,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1100" y="453" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593010158813" />
-    <state x="363" y="259" key="FileChooserDialogImpl" timestamp="1592902277864">
+    <state x="363" y="259" key="FileChooserDialogImpl" timestamp="1593414867676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="363" y="259" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592902277864" />
+    <state x="363" y="259" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593414867676" />
     <state width="876" height="486" key="GridCell.Tab.0.bottom" timestamp="1593270001614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
